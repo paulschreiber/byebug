@@ -18,12 +18,12 @@
 [tip_url]: https://gratipay.com/byebug
 [irc_url]: https://gitter.im/deivid-rodriguez/byebug
 
-Byebug is a simple to use, feature rich debugger for Ruby 2. It uses the new
+Byebug is a simple-to-use, feature-rich debugger for Ruby 2. It uses the new
 TracePoint API for execution control and the new Debug Inspector API for call
-stack navigation, so it doesn't depend on internal core sources. It's developed
-as a C extension, so it's fast. And it has a full test suite so it's reliable.
+stack navigation, so it doesn’t depend on internal core sources. It’s developed
+as a C extension, so it’s fast. And it has a full test suite, so it’s reliable.
 
-It allows you to see what is going on _inside_ a Ruby program while it executes
+It allows you to see what is going on _inside_ a Ruby program while it executes,
 and offers many of the traditional debugging features such as:
 
 * Stepping: Running your program one line at a time.
@@ -84,7 +84,7 @@ bin/rails s
 
 Once the execution gets to your `byebug` command you will get a debugging prompt.
 
-## Byebug's commands
+## Byebug’s commands
 
     Command     | Aliases      | Subcommands
     ----------- |:------------ |:-----------
@@ -133,7 +133,7 @@ relying on `byebug`.
 
 ## Getting Started
 
-Read [byebug's markdown
+Read [byebug’s markdown
 guide](https://github.com/deivid-rodriguez/byebug/blob/master/GUIDE.md) to get
 started. Proper documentation will be eventually written.
 
@@ -156,7 +156,7 @@ Everybody who has ever contributed to this forked and reforked piece of
 software, especially:
 
 * @ko1, author of the awesome TracePoint API for Ruby.
-* @cldwalker, [debugger]'s maintainer.
+* @cldwalker, [debugger]’s maintainer.
 * @denofevil, author of [debase], the starting point of this.
 * @kevjames3 for testing, bug reports and the interest in the project.
 * @FooBarWidget for working and helping with remote debugging.
